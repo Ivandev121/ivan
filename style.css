@@ -1,0 +1,270 @@
+::-webkit-scrollbar{
+    background: #111;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: #f7ba00;
+    border-radius: 10px;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgvid {
+    position: fixed;
+    z-index: -1;
+    
+}
+@media (min-aspect-ratio:16/9) {
+    .bgvid {
+        width: 100%;
+        height: auto;
+        
+    }
+}
+@media (max-aspect-ratio:16/9) {
+    .bgvid {
+        width: auto;
+        height: 100%;
+    }
+}
+.icon {
+    border-radius: 50%;
+    
+}/*global end*/
+
+/*glass start*/
+.glass {
+    position: relative;
+    top: 100px;
+    width: 900px;
+    height: 600px;
+    background: rgba(225, 225, 225, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    border: 2px solid rgba(225, 225, 225, .5);
+    border-right: 2px solid rgba(225, 225, 225, .2);
+    border-bottom: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(10px);
+    
+}
+
+#src {
+    position: relative;
+    height: 178px;
+    top: 35px;
+    border-radius: 50%;
+}
+.firstname {
+    position: relative;
+    top: 30px;
+    font-family: oswald;
+    }
+.cookies {
+    color: #111;
+    text-decoration: none;
+}
+.cookies:hover {
+    color: burlywood;
+    opacity: 90%;
+    transition: 0.4s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+
+}
+.cookies:active {
+    position: relative;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    opacity: 0.5; }
+/*glass end*/
+
+/*socials start*/
+
+.socials {
+    position: relative;
+    top: 170px;
+    left: 5px;
+    font-family: oswald;
+}
+#yt {
+    position: relative;
+    height: 65px;
+    top: 180px;
+    right: 110px;
+}
+#fb {
+    position: relative;
+    height: 47px;
+    top: 170px;
+    right: 80px;
+}
+#sp {
+    position: relative;
+    height: 45px;
+    top: 170px;
+    right: 40px;
+}
+#gh {
+    position: relative;
+    height: 44px;
+    top: 170px;
+    left: 5px;
+}
+#tt {
+    position: relative;
+    height: 40px;
+    top: 170px;
+    left: 55px;
+}
+#ig {
+    position: relative;
+    height: 50px;
+    top: 174px;
+    left: 101px;
+}
+#st {
+    position: relative;
+    height: 45px;
+    top: 170px;
+    left: 145px;
+}
+#dc {
+    position: relative;
+    height: 35px;
+    top: 230px;
+    right: 222px;
+}
+.dc {
+    position: relative;
+    font-family: oswald;
+    top: 190px;
+    left: 30px;
+    
+}
+
+/*socials animation start*/
+#yt:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px red);
+    
+}
+#fb:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(0, 132, 255));
+    
+}
+#sp:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(21, 255, 0));
+    
+}
+#gh:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    
+}
+#tt:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 0, 170));
+    
+}
+#ig:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 96, 96));
+    
+}
+#st:hover {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(2px 2px 20px rgb(2, 43, 104));  
+}
+
+#yt:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px red);
+    opacity: 0.5;
+}
+#fb:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(0, 132, 255));
+    opacity: 0.5;
+}
+#sp:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(21, 255, 0));
+    opacity: 0.5;
+}
+#gh:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    opacity: 0.5;
+}
+#tt:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 0, 170));
+    opacity: 0.5;
+}
+#ig:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 96, 96));
+    opacity: 0.5;
+}
+#st:active {
+    position: relative;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    filter: drop-shadow(2px 2px 20px rgb(2, 43, 104)); 
+    opacity: 0.5;
+}
+
+#point {
+    position: relative;
+    height: 16px;
+    bottom: 367px;
+    right: 25px;
+}
+.ygn {
+    position: relative;
+    font-family: oswald;
+    bottom: 391px;
+    left: 5px;
+}
+.para {
+    position: relative;
+    font-family: comic neue;
+    bottom: 80px;
+}
+.cp {
+    font-family: oswald;
+    position: relative;
+    color: white;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    top: 350px;
+}
